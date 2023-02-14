@@ -1,0 +1,44 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #3e5e74;
+    padding: 10rem;
+    color: white;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #decrease-button {
+    background-color: #fe938c;
+  }
+  
+  #increase-button {
+    background-color: #6191b5;
+  }
+  
+  #reset-button {
+    background-color: #e81d36;
+  }
+  
+  #get-question-button {
+    background-color: #ead27b;
+    color: #3e5e74;
+  }
+  .highlight-title {
+    color: #ead27b;
+  }
+  
+  #reveal-button {
+    background-color: #1a264f;
+    color: white;
+  }
+  button {
+    border-radius: 5px;
+    border: none;
+    padding: 15px 10px 15px 10px;
+    margin: 5px;
+  }
+  
