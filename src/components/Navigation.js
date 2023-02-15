@@ -1,10 +1,10 @@
-import DecreaseButton from "./DecreaseButton";
-import IncreaseButton from "./IncreaseButton";
-import ResetButton from "./ResetButton";
+import DecreaseButton from './DecreaseButton'
+import IncreaseButton from './IncreaseButton'
+import ResetButton from './ResetButton'
 
-export default function Navication(props) {
+export default function Navication (props) {
   return (
-    <div className="navigation">
+    <div className='navigation'>
       <DecreaseButton
         setScore={props.setScore}
         score={props.score}
@@ -17,5 +17,5 @@ export default function Navication(props) {
       />
       <ResetButton setScore={props.setScore} />
     </div>
-  );
+  )
 }
